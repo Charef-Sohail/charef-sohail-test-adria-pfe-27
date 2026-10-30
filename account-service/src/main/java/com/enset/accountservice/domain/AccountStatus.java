@@ -1,4 +1,5 @@
 package com.enset.accountservice.domain;
 
-public class AccountStatus {
+public enum AccountStatus {
+    ACTIVE, BLOCKED
 }
